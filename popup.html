@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="popup.css">
+
+</head>
+
+<body>
+  <div class="modal-container">
+    <h1 class="app-name">Chrome-extention</h1>
+    <div class="modal-form">
+      <input class="form-input api-key" id="api_key" name="api_key" type="text" placeholder="API_KEY...">
+      <textarea class="form-input content" name="content" id="content" cols="30" rows="10"></textarea>
+      <select class="form-input target" name="target" id="target">
+        <option value="" selected>Select target</option>
+
+      </select>
+
+      <button class="form-input button" disabled id="submit_button">Submit</button>
+    </div>
+    <div id="view_portal"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>
